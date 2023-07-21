@@ -18,7 +18,7 @@ const Button = ({
     height: height,
     borderRadius: borderRadius,
     border: border,
-    fontFamily: "SF Pro Display"
+    fontFamily: "SF Pro Display",
   };
 
   return <button style={buttonStyle}>{text}</button>;
