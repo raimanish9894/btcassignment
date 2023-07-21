@@ -1,0 +1,36 @@
+.bottom-navbar {
+  width: 80%;
+  height: 100px;
+  margin-left: 10%;
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 16px;
+  background-color: white;
+}
+.bottom-navbar-icons {
+  transition: transform 250ms, opacity 400ms;
+  color: #aeb8c4;
+}
+.bottom-navbar-icons:hover {
+  transform: scale(1.5);
+  color: black;
+}
+
+@media (max-width: 768px) {
+  .bottom-navbar {
+    justify-content: space-evenly;
+    border-radius: 0;
+    width: 100%;
+
+    margin-left: 0;
+    height: 80px;
+    position: fixed;
+    bottom: 0px;
+  }
+  .bottom-navbar-icons {
+    font-size: 22px;
+  }
+}

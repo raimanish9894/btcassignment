@@ -1,0 +1,13 @@
+@font-face {
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../assets/fonts/sf-pro-text-semibold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../assets/fonts/sf-pro-text-semibold.ttf") format("truetype");
+}

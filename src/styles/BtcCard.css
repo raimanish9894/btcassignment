@@ -1,0 +1,96 @@
+.btc-card-main {
+  width: 80%;
+  height: 220px;
+  margin-top: 40px;
+  margin-left: 10%;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 16px;
+  font-family: "SF Pro Display", sans-serif;
+  background-color: white;
+  overflow: hidden;
+
+  transition: height 0.3s ease-in;
+  transition-delay: 300ms;
+}
+.btc-card-main.expanded {
+  height: 340px;
+}
+.btc-card-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-top: 10px;
+}
+.btc-card-top-left {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.btc-logo {
+  width: 40px;
+  height: 40px;
+}
+.btc-card-top-title-rigth {
+  color: #aeb8c4;
+}
+.btc-card-main-title {
+  margin-left: 10%;
+  margin-top: 10px;
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 2rem;
+  font-family: "SF Pro Display", sans-serif;
+}
+.btc-card-bottom {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.btc-card-bottom-left {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: gray;
+  font-family: "SF Pro Display", sans-serif;
+}
+.btc-card-bottom-right-button {
+  background-color: #ee225d;
+  padding: 1%;
+  width: 80px;
+  border-radius: 20px;
+  border: 0;
+  color: white;
+}
+.drop-down {
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin-top: 5px;
+}
+
+.additional-content {
+  margin-top: 12px;
+  width: 80%;
+  margin-left: 10%;
+  padding-bottom: 10px;
+}
+
+.additional-content .btc-additional-content {
+  font-size: 0.8rem;
+  font-weight: 400;
+  line-height: 1rem;
+  color: #aeb8c4;
+}
+
+.additional-content .btc-additional-content-buttons {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  gap: 20%;
+  margin-top: 14px;
+}
