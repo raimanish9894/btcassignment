@@ -13,7 +13,6 @@
 .bottom-navbar-icons {
   transition: transform 250ms, opacity 400ms;
   color: #aeb8c4;
-  cursor: pointer;
 }
 .bottom-navbar-icons:hover {
   transform: scale(1.5);

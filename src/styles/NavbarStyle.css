@@ -20,7 +20,6 @@
 }
 .menu-icon-button {
   display: none;
-  cursor: pointer;
 }
 
 @media (max-width: 768px) {
