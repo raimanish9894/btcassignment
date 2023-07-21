@@ -19,6 +19,7 @@ const Button = ({
     borderRadius: borderRadius,
     border: border,
     fontFamily: "SF Pro Display",
+    cursor: "pointer"
   };
 
   return <button style={buttonStyle}>{text}</button>;

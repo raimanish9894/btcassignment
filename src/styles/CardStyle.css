@@ -8,6 +8,7 @@
   text-align: center;
   transition: transform 250ms, opacity 400ms;
   background-color: white;
+  cursor: pointer;
 }
 .card-style:hover {
   transform: scale(1.1);
