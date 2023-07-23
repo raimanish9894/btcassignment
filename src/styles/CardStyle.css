@@ -14,7 +14,14 @@
 }
 
 .card-image-style {
-  margin-top: 30px;
+  margin-top: 20px;
+}
+.card-text-style {
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  font-size: 1rem;
+  color: #4c5968;
 }
 
 .card-section {

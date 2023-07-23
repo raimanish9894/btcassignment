@@ -16,7 +16,7 @@
 }
 .bottom-navbar-icons:hover {
   transform: scale(1.5);
-  color: black;
+  color: #4C5968;;
 }
 
 @media (max-width: 768px) {

@@ -1,11 +1,11 @@
 .btc-card-main {
   width: 80%;
-  height: 220px;
+  height: 180px;
   margin-top: 40px;
   margin-left: 10%;
   box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.1);
   border-radius: 16px;
-  font-family: "SF Pro Display", sans-serif;
+  font-family: "SF Pro Display";
   background-color: white;
   overflow: hidden;
 
@@ -13,7 +13,14 @@
   transition-delay: 300ms;
 }
 .btc-card-main.expanded {
-  height: 340px;
+  height: 300px;
+}
+.btc-card-top-title {
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  color: #4c5968;
+  font-size: 1rem;
 }
 .btc-card-top {
   display: flex;
@@ -34,17 +41,23 @@
 }
 .btc-card-top-title-rigth {
   color: #aeb8c4;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  font-size: 1rem;
 }
 .btc-card-main-title {
   margin-left: 10%;
   margin-top: 10px;
-  font-size: 2rem;
-  font-weight: 500;
-  line-height: 2rem;
-  font-family: "SF Pro Display", sans-serif;
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  font-family: "SF Pro Display";
+  color: #4c5968;
 }
 .btc-card-bottom {
-  margin-top: 30px;
+  margin-top: 5px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -52,10 +65,12 @@
   margin-right: 10%;
 }
 .btc-card-bottom-left {
-  font-size: 1.2rem;
-  font-weight: 500;
-  color: gray;
-  font-family: "SF Pro Display", sans-serif;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  color: #aeb8c4;
+  font-family: "SF Pro Display";
 }
 .btc-card-bottom-right-button {
   background-color: #ee225d;
@@ -63,7 +78,12 @@
   width: 80px;
   border-radius: 20px;
   border: 0;
-  color: white;
+  color: #fff;
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  flex-shrink: 0;
 }
 .drop-down {
   width: 100%;
@@ -97,6 +117,6 @@
 
 @media (max-width: 768px) {
   .btc-card-main.expanded {
-    height: 360px;
+    height: 330px;
   }
 }

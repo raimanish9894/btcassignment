@@ -3,7 +3,7 @@ import React from "react";
 const Button = ({
   background,
   text,
-  size,
+ 
   height,
   width,
   border,
@@ -12,13 +12,15 @@ const Button = ({
 }) => {
   const buttonStyle = {
     backgroundColor: background,
-    fontSize: size,
+    fontWeight: "600",
+    fontSize: "1rem",
     color: color,
     width: width,
     height: height,
     borderRadius: borderRadius,
     border: border,
     fontFamily: "SF Pro Display",
+    flexShrink: 0,
   };
 
   return <button style={buttonStyle}>{text}</button>;

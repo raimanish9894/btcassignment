@@ -30,6 +30,9 @@ const GraphCard = () => {
     }
   });
 
+  // Define a unique ID for the gradient
+  const gradientId = "graphCardFillGradient";
+
   return (
     <div className="graph-card">
       <div className="graph-top">
@@ -99,17 +102,25 @@ const GraphCard = () => {
               bottom: 5,
             }}
           >
+            {/* Define the linear gradient */}
+            <defs>
+              <linearGradient id={gradientId} x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0%" stopColor="#FFC843" />
+                <stop offset="100%" stopColor="#FF8F17" />
+              </linearGradient>
+            </defs>
+            {/* Apply the gradient to the Area fill */}
             <Area
               type="monotone"
               dataKey="uv"
-              stroke="#FA9C21"
+              stroke={`url(#${gradientId})`}
               strokeWidth={3}
               fill="#fff5e6"
             />
           </AreaChart>
         </ResponsiveContainer>
         <div className="graph-info">
-          <span className="graph-info-dot"></span>1 BTC= ${maxValue}
+          <span className="graph-info-dot"></span>1 BTC = ${maxValue}
         </div>
       </div>
     </div>

@@ -16,9 +16,9 @@ const Modal = ({ isOpen, onClose }) => {
               borderBottomColor: "#AEB8C4",
             }}
           >
-            <div>Edit</div>
+            <div className="modalText">Edit</div>
             <div>
-              <FaEdit fontSize={18} />
+              <FaEdit fontSize={18} color="#4c5968"/>
             </div>
           </div>
         </div>
@@ -30,9 +30,9 @@ const Modal = ({ isOpen, onClose }) => {
               borderBottomColor: "#AEB8C4",
             }}
           >
-            <div>Courier Info</div>
+            <div className="modalText">Courier Info</div>
             <div>
-              <BsInfoSquare fontSize={18} />
+              <BsInfoSquare fontSize={18} color="#4c5968"/>
             </div>
           </div>
         </div>
@@ -44,9 +44,9 @@ const Modal = ({ isOpen, onClose }) => {
               borderBottomColor: "#AEB8C4",
             }}
           >
-            <div>Share</div>
+            <div className="modalText">Share</div>
             <div>
-              <BsArrowBarUp fontSize={18} />
+              <BsArrowBarUp fontSize={18} color="#4c5968"/>
             </div>
           </div>
         </div>
