@@ -1,10 +1,17 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Modal from "./Modal";
 import "../styles/NavbarStyle.css";
 import { FaEllipsisV, FaEllipsisH, FaChevronLeft } from "react-icons/fa";
 
 const NavBar = () => {
   const [isMenuClicked, setIsMenuClicked] = useState(false);
+  useEffect(() => {
+    if (isMenuClicked) {
+      document.body.style.setProperty('overflow', 'hidden', 'important');
+    } else {
+      document.body.style.overflow = 'visible';
+    }
+  }, [isMenuClicked]);
 
   const handleToggleMenu = () => {
     setIsMenuClicked(!isMenuClicked);

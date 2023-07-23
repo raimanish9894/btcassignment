@@ -1,6 +1,6 @@
 .btc-card-main {
   width: 80%;
-  height: 180px;
+  height: 190px;
   margin-top: 40px;
   margin-left: 10%;
   box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.1);
@@ -117,6 +117,6 @@
 
 @media (max-width: 768px) {
   .btc-card-main.expanded {
-    height: 330px;
+    height: 340px;
   }
 }
